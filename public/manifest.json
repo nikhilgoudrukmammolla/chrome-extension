@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Devlog V",
+    "version": "1.0.0",
+    "description": "Chrome Extension",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "128": "icon.png",
+        "256": "icon.png",
+        "512": "icon.png"
+
+    }
+
+}
