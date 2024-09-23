@@ -11,10 +11,14 @@
         "webRequestBlocking",
         "activeTab",
         "scripting",
-        "storage"
+        "storage",
+        "tabs",
+        "devtools"
+
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.js",
+        "type": "module"
     },
     "host_permissions": ["<all_urls>"],
     "icons": {
@@ -25,5 +29,6 @@
         "512": "icon.png"
 
     }
+   
 
 }
